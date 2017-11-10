@@ -1,0 +1,57 @@
+@keyframes sway{
+    0% {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        height: 200px;
+        width: 400px;
+    }
+    25% {
+        border-top-left-radius: 40%;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+    }
+    50% {
+        border-top-left-radius: 40%;
+        border-top-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 15px;
+        height: 210px;
+        width: 410px;
+        
+    }
+    75% {
+        border-top-left-radius: 40%;
+        border-top-right-radius: 40%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 40%;
+    }
+    100% {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        height:200px;
+        width: 400px;
+    }
+}
+
+section {
+    background-color: royalblue;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    vertical-align: middle;
+    border: solid, black;
+
+    /* border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+
+    animation-name: sway;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
